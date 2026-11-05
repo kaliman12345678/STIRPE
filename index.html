@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="STIRPE — Superación personal, iluminación espiritual y propósito de vida. Iniciativa de CORPORACION MAKAIA ASESORIA INTERNACIONAL en Medellín, Colombia.">
+    <meta name="keywords" content="Stirpe, superación personal, iluminación espiritual, desarrollo interior, propósito, Medellín, Colombia">
+    <meta name="author" content="STIRPE | CORPORACION MAKAIA ASESORIA INTERNACIONAL">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="STIRPE | Iluminación Espiritual y Superación Personal">
+    <meta property="og:description" content="Descubre tu luz interior y trasciende. Un espacio dedicado a la serenidad, la sabiduría y la elevación humana.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.stirpe.site">
+    
+    <title>STIRPE | Iluminación Espiritual y Superación Personal</title>
+
+    <!-- Google Fonts: Cormorant Garamond & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BANNER FLOTANTE DE PRIVACIDAD -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <i class="fa-solid fa-sun cookie-icon"></i>
+            <p>
+                En <strong>STIRPE</strong> respetamos profundamente tu tranquilidad y tus datos. Al continuar navegando, reconoces nuestra
+                <a href="#" class="modal-link cookie-link" data-modal="modal-privacidad">Política de Privacidad</a>
+                y nuestros
+                <a href="#" class="modal-link cookie-link" data-modal="modal-terminos">Términos y Condiciones</a>.
+            </p>
+        </div>
+        <div class="cookie-actions">
+            <button class="btn-cookie-outline" id="cookieDetails">Ver Políticas</button>
+            <button class="btn-cookie-accept" id="cookieAccept">Comprendo</button>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="brand-logo">
+                <span class="logo-symbol">✧</span>
+                <span class="logo-text">STIRPE</span>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Abrir Menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#pilares" class="nav-link">Pilares</a>
+                <a href="#iluminacion" class="nav-link">Iluminación</a>
+                <a href="#trascendencia" class="nav-link">Trascendencia</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#contacto" class="nav-link nav-cta">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <img src="stirpe_hero.jpg" alt="STIRPE Iluminación Espiritual y Despertar Interior" class="hero-bg-img" loading="eager">
+        <div class="container hero-content">
+            <div class="hero-eyebrow">
+                <span class="sparkle">✧</span> Un viaje hacia tu esencia infinita <span class="sparkle">✧</span>
+            </div>
+            <h1 class="hero-title">
+                Despierta Tu <br><span class="hero-highlight">Luz Interior</span>
+            </h1>
+            <p class="hero-desc">
+                En STIRPE concebimos la superación personal no solo como un logro material, sino como una profunda iluminación espiritual que transforma tu visión del mundo y cultiva serenidad duradera.
+            </p>
+            <div class="hero-actions">
+                <a href="#pilares" class="btn btn-pastel">Iniciar el Viaje</a>
+                <a href="#nosotros" class="btn btn-outline">Nuestra Filosofía</a>
+            </div>
+        </div>
+        <div class="hero-scroll-cue">
+            <span>Explorar</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- PILARES DE ILUMINACIÓN -->
+    <section class="section pillars-section" id="pilares">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="eyebrow">Senderos de Elevación</span>
+                <h2 class="section-title">Los Pilares de la Iluminación</h2>
+                <div class="section-divider"><span>✧</span></div>
+                <p class="section-desc">Principios armónicos diseñados para restaurar tu paz mental, despertar la sabiduría y alinear tu vida.</p>
+            </div>
+
+            <div class="pillars-grid">
+                <div class="pillar-card" data-delay="0">
+                    <div class="pillar-icon-wrap">
+                        <i class="fa-regular fa-sun"></i>
+                    </div>
+                    <h3>Claridad Espiritual</h3>
+                    <p>Despeja las inquietudes de la mente para conectar con una conciencia serena, intuitiva y equilibrada frente a cualquier circunstancia.</p>
+                </div>
+
+                <div class="pillar-card" data-delay="100">
+                    <div class="pillar-icon-wrap">
+                        <i class="fa-solid fa-spa"></i>
+                    </div>
+                    <h3>Paz Interior & Calma</h3>
+                    <p>Encuentra tu centro inquebrantable a través de hábitos de introspección, meditación reflexiva y autocuidado consciente.</p>
+                </div>
+
+                <div class="pillar-card" data-delay="200">
+                    <div class="pillar-icon-wrap">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h3>Superación Consciente</h3>
+                    <p>Evoluciona profesional y personalmente desde el amor propio, edificando propósitos auténticos que aporten luz a tu entorno.</p>
+                </div>
+
+                <div class="pillar-card" data-delay="300">
+                    <div class="pillar-icon-wrap">
+                        <i class="fa-solid fa-hands-holding-circle"></i>
+                    </div>
+                    <h3>Servicio y Bondad</h3>
+                    <p>Comprende que toda gran realización culmina en la generosidad y en el deseo de construir una sociedad más empática y justa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN ILUMINACIÓN (Imagen 2) -->
+    <section class="section split-section" id="iluminacion">
+        <div class="container split-container">
+            <div class="split-image-wrap">
+                <img src="stirpe_spiritual.jpg" alt="Meditación e Iluminación Espiritual STIRPE" class="split-img" loading="lazy">
+                <div class="split-glow"></div>
+            </div>
+            <div class="split-text">
+                <span class="eyebrow">Despertar de Consciencia</span>
+                <h2 class="section-title">El Refugio de la Sabiduría Interior</h2>
+                <p>
+                    Cuando disminuyes la velocidad del ritmo cotidiano y respiras con presencia, descubres que la calma no es la ausencia de retos, sino la presencia de armonía en tu interior.
+                </p>
+                <p>
+                    En <strong>STIRPE</strong> acompañamos tus procesos de introspección para que redescubras tus valores fundamentales, cures la dispersión mental y cultives una visión inspiradora de tu destino.
+                </p>
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Silencio productivo y serenidad activa</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Autoconocimiento libre de juicios limitantes</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Sanación del estrés y equilibrio emocional</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Conexión con tu verdadero propósito existencial</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRASE INSPIRACIONAL CENTRAL (Imagen 3 de fondo o detalle) -->
+    <section class="quote-section">
+        <div class="quote-bg-glow"></div>
+        <div class="container text-center">
+            <span class="quote-icon">✧</span>
+            <blockquote class="central-quote">
+                "No hay oscuridad capaz de apagar la llama de quien ha descubierto el poder pacífico de su propia luz."
+            </blockquote>
+            <p class="quote-author">— Filosofía STIRPE</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN TRASCENDENCIA & LUZ (Imagen 3 & 4) -->
+    <section class="section split-section split-reverse" id="trascendencia">
+        <div class="container split-container">
+            <div class="split-text">
+                <span class="eyebrow">Energía y Comunidad</span>
+                <h2 class="section-title">Elevación Colectiva y Trascendencia</h2>
+                <p>
+                    Ningún ser florece en soledad. La elevación personal alcanza su máxima expresión cuando se comparte en círculos de resonancia armónica y apoyo sincero.
+                </p>
+                <p>
+                    Impulsamos espacios donde el diálogo humano, la fraternidad y el compromiso con el bien común construyen puentes reales hacia un futuro de bienestar integral.
+                </p>
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Relaciones interpersonales conscientes y nutritivas</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Liderazgo compasivo y transformador</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Redes de apoyo para el desarrollo integral</li>
+                </ul>
+                <div style="margin-top: 2rem;">
+                    <a href="#contacto" class="btn btn-pastel">Conectar con Nosotros</a>
+                </div>
+            </div>
+            <div class="split-image-wrap">
+                <img src="stirpe_community.jpg" alt="Comunidad y Armonía Colectiva STIRPE" class="split-img" loading="lazy">
+                <div class="split-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN LUZ INTERIOR (Imagen 3) -->
+    <section class="section light-section">
+        <div class="container light-container">
+            <div class="light-img-wrap">
+                <img src="stirpe_light.jpg" alt="Luz Interior y Consciencia STIRPE" class="light-img" loading="lazy">
+            </div>
+            <div class="light-text">
+                <span class="eyebrow">Semilla Luminosa</span>
+                <h2 class="section-title">La Belleza de lo Esencial</h2>
+                <p>
+                    Cada día es una nueva oportunidad para agradecer, renacer y proyectar lo mejor de ti al mundo. En STIRPE te recordamos que los cambios profundos comienzan siempre con una actitud humilde, serena y receptiva.
+                </p>
+                <a href="#contacto" class="btn btn-pastel" style="margin-top: 1.5rem; display: inline-block;">Quiero Florecer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS / DATOS LEGALES -->
+    <section class="section about-section" id="nosotros">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="eyebrow">Transparencia Institucional</span>
+                <h2 class="section-title">Sobre Nosotros</h2>
+                <div class="section-divider"><span>✧</span></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-narrative">
+                    <p>
+                        <strong>STIRPE</strong> es una plataforma e iniciativa de desarrollo personal, espiritual y social impulsada bajo el respaldo institucional de <strong>CORPORACION MAKAIA ASESORIA INTERNACIONAL</strong>, entidad sin ánimo de lucro domiciliada en la ciudad de Medellín, Colombia.
+                    </p>
+                    <p>
+                        Nuestro principio rector es acercar herramientas de superación, bienestar emocional y enriquecimiento espiritual para empoderar a individuos y comunidades, operando bajo estrictos estándares de transparencia, ética y responsabilidad comunitaria.
+                    </p>
+                    <p>
+                        Creemos fielmente que una vida con propósito espiritual y equilibrio mental es el fundamento necesario para edificar sociedades pacíficas, prósperas y conscientes.
+                    </p>
+                </div>
+
+                <div class="legal-card">
+                    <div class="legal-card-header">
+                        <i class="fa-solid fa-landmark"></i>
+                        <h3>Datos Oficiales de Registro</h3>
+                    </div>
+                    <ul class="legal-list">
+                        <li>
+                            <span class="legal-label">Razón Social</span>
+                            <span class="legal-value">CORPORACION MAKAIA ASESORIA INTERNACIONAL</span>
+                        </li>
+                        <li>
+                            <span class="legal-label">Marca Comercial</span>
+                            <span class="legal-value">STIRPE</span>
+                        </li>
+                        <li>
+                            <span class="legal-label">NIT</span>
+                            <span class="legal-value">900106664-1</span>
+                        </li>
+                        <li>
+                            <span class="legal-label">Domicilio Principal</span>
+                            <span class="legal-value">MEDELLÍN, ANTIOQUIA, COLOMBIA</span>
+                        </li>
+                        <li>
+                            <span class="legal-label">Dirección</span>
+                            <span class="legal-value">Carrera 43 A 34 155 OF 701</span>
+                        </li>
+                        <li>
+                            <span class="legal-label">Correo Oficial</span>
+                            <span class="legal-value">talentohumano@stirpe.site</span>
+                        </li>
+                        <li>
+                            <span class="legal-label">Teléfono Comercial</span>
+                            <span class="legal-value">3108247977</span>
+                        </li>
+                        <li>
+                            <span class="legal-label">Sitio Web Oficial</span>
+                            <span class="legal-value">www.stirpe.site</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact-section" id="contacto">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="eyebrow">Canal Abierto</span>
+                <h2 class="section-title">Inicia Tu Transformación</h2>
+                <div class="section-divider"><span>✧</span></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="contact-lead">
+                        Nos encantaría escucharte. Si deseas mayor orientación sobre nuestros programas de crecimiento o tienes alguna inquietud institucional, contáctanos:
+                    </p>
+
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <strong>Dirección</strong>
+                                <span>Carrera 43 A 34 155 OF 701<br>Medellín, Antioquia, Colombia</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <strong>Correo Electrónico</strong>
+                                <span>talentohumano@stirpe.site</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <strong>Teléfono de Atención</strong>
+                                <span>310 824 7977</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-globe"></i>
+                            <div>
+                                <strong>Portal Web</strong>
+                                <span>www.stirpe.site</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="cNombre">Nombre Completo</label>
+                        <input type="text" id="cNombre" name="nombre" placeholder="Ej. Mariana Gómez" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cEmail">Correo Electrónico</label>
+                        <input type="email" id="cEmail" name="email" placeholder="mariana@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cMensaje">Mensaje o Consulta</label>
+                        <textarea id="cMensaje" name="mensaje" rows="4" placeholder="¿Cómo podemos acompañarte en tu camino de crecimiento?" required></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="cConsent" required>
+                        <label for="cConsent">
+                            He leído y acepto los
+                            <a href="#" class="modal-link" data-modal="modal-terminos">Términos y Condiciones</a>
+                            y la
+                            <a href="#" class="modal-link" data-modal="modal-privacidad">Política de Privacidad</a>.
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-pastel btn-block">Enviar Mensaje</button>
+                    <p class="form-success" id="formSuccess" style="display:none">
+                        <i class="fa-solid fa-circle-check"></i> Mensaje enviado con éxito. Te responderemos pronto.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN LEGAL VISIBLE ANTES DEL FOOTER -->
+    <section class="legal-section-visible" id="legal">
+        <div class="container">
+            <div class="legal-visible-inner">
+                <div class="legal-visible-text">
+                    <span class="eyebrow">Claridad y Confianza</span>
+                    <h2 class="section-title">Información Legal y Regulatoria</h2>
+                    <p>
+                        Para STIRPE y la CORPORACION MAKAIA ASESORIA INTERNACIONAL, la transparencia y el respeto irrestricto por tus derechos y tu privacidad son pilares innegociables. Accede a nuestros marcos normativos completos:
+                    </p>
+                </div>
+                <div class="legal-visible-buttons">
+                    <button class="btn-legal-big modal-link" data-modal="modal-terminos">
+                        <i class="fa-solid fa-file-contract"></i>
+                        <span>
+                            <strong>Términos y Condiciones</strong>
+                            <small>Normas de uso del portal web</small>
+                        </span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <button class="btn-legal-big modal-link" data-modal="modal-privacidad">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>
+                            <strong>Política de Privacidad</strong>
+                            <small>Protección y tratamiento de datos personales</small>
+                        </span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-symbol">✧</span> STIRPE
+                    </div>
+                    <p>
+                        Plataforma de iluminación espiritual y superación personal.<br>
+                        Marca de <strong>CORPORACION MAKAIA ASESORIA INTERNACIONAL</strong><br>
+                        NIT: 900106664-1
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#pilares">Pilares</a></li>
+                        <li><a href="#iluminacion">Iluminación</a></li>
+                        <li><a href="#trascendencia">Trascendencia</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#" class="modal-link" data-modal="modal-terminos">Términos y Condiciones</a></li>
+                        <li><a href="#" class="modal-link" data-modal="modal-privacidad">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p>Carrera 43 A 34 155 OF 701<br>Medellín, Antioquia, Colombia</p>
+                    <p>talentohumano@stirpe.site</p>
+                    <p>310 824 7977</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 STIRPE — CORPORACION MAKAIA ASESORIA INTERNACIONAL. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL TÉRMINOS Y CONDICIONES -->
+    <div class="modal" id="modal-terminos" role="dialog" aria-hidden="true">
+        <div class="modal-backdrop modal-close-trigger"></div>
+        <div class="modal-box modal-box-lg">
+            <div class="modal-head">
+                <div class="modal-head-inner">
+                    <i class="fa-solid fa-file-contract modal-head-icon"></i>
+                    <div>
+                        <h2>Términos y Condiciones de Uso</h2>
+                        <p class="modal-head-sub">STIRPE — www.stirpe.site</p>
+                    </div>
+                </div>
+                <button class="modal-close-btn modal-close-trigger" aria-label="Cerrar">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-update"><i class="fa-regular fa-calendar"></i> Última actualización: 5 de noviembre de 2026</p>
+
+                <h3>1. Identificación del Titular</h3>
+                <p>El portal web <strong>www.stirpe.site</strong> es de propiedad y operación de la <strong>CORPORACION MAKAIA ASESORIA INTERNACIONAL</strong>, entidad sin ánimo de lucro debidamente registrada y domiciliada en Medellín, Colombia, con NIT <strong>900106664-1</strong>, dirección en Carrera 43 A 34 155 OF 701, correo de contacto talentohumano@stirpe.site y teléfono comercial 3108247977.</p>
+
+                <h3>2. Aceptación Expresa</h3>
+                <p>El ingreso, navegación y uso del portal constituyen la aceptación libre, expresa e incondicional de los presentes Términos y Condiciones. Quien no se encuentre conforme con las cláusulas aquí descritas deberá abstenerse de navegar en este sitio web.</p>
+
+                <h3>3. Objeto del Sitio</h3>
+                <p>STIRPE tiene por objeto la divulgación de conocimientos, contenidos, talleres y reflexiones formativas orientadas al desarrollo personal, la introspección reflexiva, el bienestar emocional y la iluminación espiritual, así como brindar un canal informativo directo entre la comunidad y la entidad.</p>
+
+                <h3>4. Condiciones de Uso</h3>
+                <p>El usuario se obliga a hacer un uso lícito, respetuoso y conforme a las buenas costumbres del portal. Queda terminantemente prohibido:</p>
+                <ul class="modal-list">
+                    <li>Utilizar los contenidos para fines contrarios a la ley, a la moral o a los derechos fundamentales.</li>
+                    <li>Introducir o diseminar virus, códigos maliciosos o cualquier software que altere los sistemas informáticos.</li>
+                    <li>Intentar acceder a áreas restringidas, servidores o bases de datos de la Corporación.</li>
+                    <li>Suplantar la identidad de otros usuarios o del equipo administrativo de STIRPE.</li>
+                </ul>
+
+                <h3>5. Propiedad Intelectual</h3>
+                <p>Todas las obras, contenidos textuales, ilustraciones, imaginería estética, logotipos, marcas distintivas, diagramación y código informático presentes en este sitio web son propiedad exclusiva de la <strong>CORPORACION MAKAIA ASESORIA INTERNACIONAL</strong> o de sus legítimos licenciantes, estando amparados bajo las normativas nacionales e internacionales de propiedad intelectual y derechos de autor.</p>
+
+                <h3>6. Limitación de Responsabilidad</h3>
+                <p>La Corporación implementa medidas técnicas de disponibilidad continua, no obstante no responderá por interrupciones temporales causadas por factores de fuerza mayor, mantenimiento técnico ineludible o fallas ajenas a su control directo.</p>
+
+                <h3>7. Enlaces Externos</h3>
+                <p>El portal podría incorporar hipervínculos a portales de terceros con fines meramente orientativos. La entidad no tiene injerencia ni control sobre los contenidos o políticas de sitios externos.</p>
+
+                <h3>8. Modificaciones</h3>
+                <p>La Corporación se reserva la potestad de actualizar, revisar o enriquecer estos Términos en cualquier fecha, entrando en vigencia inmediata desde el momento de su publicación oficial en esta página.</p>
+
+                <h3>9. Legislación y Jurisdicción Aplicable</h3>
+                <p>Estos Términos se interpretan con arreglo a las leyes de la <strong>República de Colombia</strong>. Ante cualquier discrepancia no conciliada de forma directa, las partes se someten a la competencia judicial ordinaria de la ciudad de <strong>Medellín, Antioquia</strong>.</p>
+
+                <div class="modal-contact-box">
+                    <strong>¿Deseas mayor información?</strong>
+                    <p>Contáctanos en <a href="mailto:talentohumano@stirpe.site">talentohumano@stirpe.site</a> o llama al 310 824 7977.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL POLÍTICA DE PRIVACIDAD -->
+    <div class="modal" id="modal-privacidad" role="dialog" aria-hidden="true">
+        <div class="modal-backdrop modal-close-trigger"></div>
+        <div class="modal-box modal-box-lg">
+            <div class="modal-head">
+                <div class="modal-head-inner">
+                    <i class="fa-solid fa-shield-halved modal-head-icon"></i>
+                    <div>
+                        <h2>Política de Privacidad y Tratamiento de Datos</h2>
+                        <p class="modal-head-sub">STIRPE — www.stirpe.site</p>
+                    </div>
+                </div>
+                <button class="modal-close-btn modal-close-trigger" aria-label="Cerrar">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-update"><i class="fa-regular fa-calendar"></i> Última actualización: 5 de noviembre de 2026</p>
+
+                <h3>1. Responsable del Tratamiento</h3>
+                <p>
+                    <strong>Entidad Legal:</strong> CORPORACION MAKAIA ASESORIA INTERNACIONAL<br>
+                    <strong>Marca Comercial:</strong> STIRPE<br>
+                    <strong>NIT:</strong> 900106664-1<br>
+                    <strong>Domicilio Principal:</strong> Medellín, Antioquia, Colombia<br>
+                    <strong>Dirección:</strong> Carrera 43 A 34 155 OF 701<br>
+                    <strong>Correo Electrónico Oficial:</strong> talentohumano@stirpe.site<br>
+                    <strong>Teléfono Comercial:</strong> 3108247977<br>
+                    <strong>Dominio Oficial:</strong> www.stirpe.site
+                </p>
+
+                <h3>2. Marco Normativo Vigente</h3>
+                <p>La presente política de protección de datos se adopta en fiel acatamiento del Artículo 15 de la Constitución Política de Colombia, la <strong>Ley Estatutaria 1581 de 2012</strong>, el <strong>Decreto 1377 de 2013</strong> y el <strong>Decreto Único Reglamentario 1074 de 2015</strong>.</p>
+
+                <h3>3. Datos Objeto de Tratamiento</h3>
+                <p>Los datos que el usuario suministra voluntariamente mediante nuestro formulario de contacto o correspondencia son:</p>
+                <ul class="modal-list">
+                    <li>Nombre y apellidos.</li>
+                    <li>Dirección de correo electrónico activa.</li>
+                    <li>Contenido descriptivo del mensaje o consulta formulada.</li>
+                </ul>
+                <p>La Corporación no recaba datos sensibles bajo ninguna circunstancia a través del portal público.</p>
+
+                <h3>4. Finalidades del Tratamiento</h3>
+                <p>La información recolectada se procesa exclusivamente con los siguientes propósitos:</p>
+                <ul class="modal-list">
+                    <li>Atender y dar respuesta rigurosa a las consultas, dudas o solicitudes allegadas.</li>
+                    <li>Suministrar información pedagógica o de interés relativa a las actividades de STIRPE.</li>
+                    <li>Garantizar la seguridad e integridad técnica de las comunicaciones.</li>
+                    <li>Dar cumplimiento a exigencias legales o requerimientos de autoridades judiciales competentes.</li>
+                </ul>
+                <p><strong>Bajo ningún concepto vendemos, comercializamos, intercambiamos o arrendamos bases de datos a terceros.</strong></p>
+
+                <h3>5. Datos Técnicos y Cookies</h3>
+                <p>El portal recopila métricas técnicas de navegación agregada y disociada (tipo de navegador, idioma, duración de visita) orientadas únicamente a mejorar la fluidez de la experiencia digital. No se efectúa perfilamiento invasivo ni rastreo ilícito.</p>
+
+                <h3>6. Medidas de Seguridad</h3>
+                <p>La CORPORACION MAKAIA ASESORIA INTERNACIONAL aplica medidas administrativas, técnicas y tecnológicas para resguardar la confidencialidad de la información y prevenir cualquier acceso no autorizado, alteración, pérdida o divulgación indebida.</p>
+
+                <h3>7. Derechos de los Titulares (Ley 1581 de 2012)</h3>
+                <p>Como titular de los datos personales, le asiste el derecho permanente a:</p>
+                <ul class="modal-list">
+                    <li><strong>Conocer, actualizar y rectificar</strong> sus datos personales ante la entidad.</li>
+                    <li><strong>Solicitar prueba</strong> de la autorización otorgada para el tratamiento.</li>
+                    <li><strong>Ser informado</strong> sobre el uso que se le ha dado a sus datos.</li>
+                    <li><strong>Revocar la autorización y/o solicitar la supresión</strong> del dato cuando no medie un deber legal o contractual de permanencia.</li>
+                    <li><strong>Acceder en forma gratuita</strong> a sus datos personales que hayan sido objeto de tratamiento.</li>
+                    <li><strong>Presentar reclamos</strong> ante la Superintendencia de Industria y Comercio (SIC).</li>
+                </ul>
+
+                <h3>8. Procedimiento para Ejercicio de Derechos</h3>
+                <p>Para formular consultas o reclamos relacionados con sus datos, el titular puede enviar una comunicación escrita dirigida a <strong>talentohumano@stirpe.site</strong>, indicando sus datos completos y la solicitud específica. Dicha solicitud será tramitada en los términos y plazos fijados por la Ley 1581 de 2012.</p>
+
+                <div class="modal-contact-box">
+                    <strong>Atención Directa:</strong>
+                    <p>📍 Carrera 43 A 34 155 OF 701, Medellín, Antioquia, Colombia</p>
+                    <p>📧 <a href="mailto:talentohumano@stirpe.site">talentohumano@stirpe.site</a> | 📞 310 824 7977</p>
+                    <p>Superintendencia de Industria y Comercio: <a href="https://www.sic.gov.co" target="_blank" rel="noopener">www.sic.gov.co</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
